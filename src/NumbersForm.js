@@ -19,7 +19,7 @@ const NumbersForm = ({ addCommas }) => {
         <div>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="change">Change the Number to a string and add commas:</label>
-                <input type="number" name="testing" value={numComma} onChange={handleChange} placeholder="number" />
+                <input id="change" type="number" name="testing" value={numComma} onChange={handleChange} placeholder="number" />
                 <button>Submit Numbers</button>
             </form>
         </div>

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`passes a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Commas"
+  >
+    <div>
+      <form>
+        <label
+          for="change"
+        >
+          Change the Number to a string and add commas:
+        </label>
+        <input
+          id="change"
+          name="testing"
+          placeholder="number"
+          type="number"
+          value="0"
+        />
+        <button>
+          Submit Numbers
+        </button>
+      </form>
+    </div>
+    <p>
+      0
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should add commas 1`] = `
+<DocumentFragment>
+  <div
+    class="Commas"
+  >
+    <div>
+      <form>
+        <label
+          for="change"
+        >
+          Change the Number to a string and add commas:
+        </label>
+        <input
+          id="change"
+          name="testing"
+          placeholder="number"
+          type="number"
+          value="0"
+        />
+        <button>
+          Submit Numbers
+        </button>
+      </form>
+    </div>
+    <p>
+      0
+    </p>
+  </div>
+</DocumentFragment>
+`;
