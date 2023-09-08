@@ -3,8 +3,12 @@ import React, { useState } from "react";
 function Story({ finalStory = "TEsting finalStaory" }) {
     // const [completeStory, setCompleteStory] = useState("")
     const [completeStory, setCompleteStory] = useState("")
-
+    
+    //story2, About love
     const story2 = ["There was a ", "who loved a ", " "]
+
+    //story3, about ladybugs
+    const story3 = ["There was a ", "who loved a ", " "]
 
     let final;
 
